@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Firebase App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>
+        Basic Firebase Application
+    </h1>
+    <input type='text' id='nameInput' placeholder='Movie'>
+    <input type='text' id='ratingInput' placeholder='Rating'>
+    <button id="submit">
+        Submit
+    </button>
+    <button id="delete">
+        Clear Data/Table
+    </button>
+    <table border="2" id="myTable">
+        <tr>
+            <td>Movie Title</td>
+            <td>Movie Rating</td>
+            <td>Date of Rating</td>
+        </tr>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase-auth.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
